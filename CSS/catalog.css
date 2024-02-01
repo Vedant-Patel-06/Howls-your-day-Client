@@ -1,0 +1,251 @@
+/* Banner */
+.banner {
+  background-image: url(../img/Catalog\ Bg.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+/* Product */
+.OB .pro-headline h3 {
+  font-size: 28px;
+}
+.AToZ {
+  padding-top: 60px;
+  padding-right: 25px;
+}
+.AToZ h3 {
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.AToZ button {
+  font-size: 28px;
+  padding: 11px 25px 5px;
+  border-radius: 10px;
+  color: var(--font-blue-color);
+  border: none;
+  font-weight: 200;
+}
+.AToZ .dropdown {
+  position: relative;
+  top: -5px;
+  padding-left: 2px;
+}
+.OB .ob-head {
+  font-size: 88px;
+  margin-top: 0;
+  padding-top: 60px;
+}
+.OB .OB-box {
+  height: 100%;
+}
+.OB .box {
+  position: relative;
+  width: 25%;
+  padding-right: 25px;
+  margin: 40px 0 0 0;
+  height: 100%;
+}
+.OB .inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-right: 25px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.extra-p {
+  padding-top: 40px;
+}
+.OB .box:hover .inner {
+  opacity: 1;
+}
+.OB {
+  position: relative;
+}
+.drop-content {
+  position: absolute;
+  background-color: var(--white);
+  padding: 20px 32px;
+  top: 150px;
+  right: 0;
+  transition: all 1s;
+  z-index: 1;
+  border: 1px solid rgba(128, 128, 128, 0.495);
+  opacity: 0;
+}
+.AToZ-btn {
+  cursor: pointer;
+}
+.opacity {
+  opacity: 1 !important;
+}
+.AToZ .drop-content ul li span {
+  font-size: 15px;
+  margin-right: 22px;
+  display: block;
+  margin-top: 10px;
+}
+/* Pagination */
+
+.pagination {
+  padding: 50px 0 100px;
+}
+.pagination ul li .number {
+  display: block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid rgba(195, 193, 193, 0.758);
+  color: var(--font-blue-color);
+}
+.pagination ul li .prev,
+.next {
+  width: 50px;
+  height: 50px;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid rgba(195, 193, 193, 0.758);
+}
+.pagination ul li .prev {
+  border-radius: 25px 0px 0px 25px;
+  border-width: 2px;
+  border-color: var(--font-blue-color);
+  background-color: var(--font-blue-color);
+  color: var(--white);
+}
+#number-1 {
+  border-width: 2px;
+  border-radius: 25px 0px 0px 25px;
+  border-color: var(--font-blue-color);
+}
+.pagination ul li .next {
+  border-radius: 0 25px 25px 0;
+  border-width: 2px;
+  border-color: var(--font-blue-color);
+  background-color: var(--font-blue-color);
+  color: var(--white);
+}
+.dn {
+  display: none;
+}
+/* Ask Anything */
+.ask {
+  margin: 0;
+}
+/* TENG */
+.TENG-c {
+  max-width: 1348px;
+  margin: auto;
+}
+.TENG {
+  /* position: relative; */
+  background-image: url(../img/TENG-Bg.svg);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+.TENG .container{
+  margin: 0;
+  overflow: visible;
+}
+.TENG h2 {
+  font-size: 60px;
+  margin-bottom: 25px;
+  color: var(--text-green-color);
+}
+.TENG .main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.TENG-box {
+  max-width: 890px;
+  padding: 90px 40px 130px;
+}
+.T-content-box {
+  width: 48%;
+  margin-bottom: 35px;
+  background-size: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.T-content-box img {
+  max-width: 100px;
+  margin: 15px 0 15px;
+}
+.T-content-box .main-text p {
+  font-size: 35px;
+  font-family: "Thunder";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+.TENG-box .main-box  {
+  position: relative;
+}
+.TENG-shape{
+  position: absolute;
+  top: 8%;
+  left: -11%;
+}
+.TENG-shape-2 svg{
+  display: none;
+}
+.TENG{
+  position: relative;
+}
+.TENG-dog {
+  position: absolute;
+  max-width: 100%;
+  bottom: -1%;
+  right: 2%;
+}
+.drop-content-2 {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.sort-by-2 {
+  display: none;
+}
+
+.drop-content-2 .so-cancel span .sort-by-2 {
+  font-size: 18px;
+}
+.cancel-ATZ > button {
+  color: black;
+  background-color: white;
+  display: none;
+  cursor: pointer;
+}
+.sort-by-3 {
+  display: none;
+}
+.over-y {
+  /* position: fixed !important;
+  top: 100px !important; */
+  transform: translateY(0%) !important;
+}
+.opacity-2 {
+  opacity: 1 !important;
+}
+.product-overlay {
+  content: "";
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  right: 0%;
+  background: #000000;
+  opacity: 0.3;
+  display: none;
+  z-index: 9;
+  transition: visibility 2s ease-in, opacity 2 s ease-in-out;
+}
+.pro-visible {
+  display: block;
+}

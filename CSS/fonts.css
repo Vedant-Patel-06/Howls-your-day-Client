@@ -1,0 +1,84 @@
+/* Webfont: HandyTalkieRegular */@font-face {
+    font-family: 'HandyTalkie';
+    src: url('../fonts/HandyTalkieRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HandyTalkieRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/HandyTalkieRegular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/HandyTalkieRegular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/HandyTalkieRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/HandyTalkieRegular.svg#HandyTalkieRegular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-BoldHC */@font-face {
+    font-family: 'Thunder';
+    src: url('../fonts/Thunder-BoldHC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Thunder-BoldHC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Thunder-BoldHC.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Thunder-BoldHC.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Thunder-BoldHC.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-BoldHCItalic */@font-face {
+    font-family: 'ThunderIta';
+    src: url('../fonts/Thunder-BoldHCItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Thunder-BoldHCItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Thunder-BoldHCItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Thunder-BoldHCItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Thunder-BoldHCItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-BoldLC */@font-face {
+    font-family: 'Thunder';
+    src: url('../fonts/Thunder-BoldLC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Thunder-BoldLC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Thunder-BoldLC.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Thunder-BoldLC.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Thunder-BoldLC.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-ExtraBoldHC */@font-face {
+    font-family: 'ThunderExtBd';
+    src: url('../fonts/Thunder-ExtraBoldHC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Thunder-ExtraBoldHC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Thunder-ExtraBoldHC.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Thunder-ExtraBoldHC.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Thunder-ExtraBoldHC.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-ExtraBoldLC */@font-face {
+    font-family: 'ThunderExtBd';
+    src: url('../fonts/Thunder-ExtraBoldLC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Thunder-ExtraBoldLC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Thunder-ExtraBoldLC.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Thunder-ExtraBoldLC.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Thunder-ExtraBoldLC.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-MediumLC */@font-face {
+    font-family: 'ThunderMed';
+    src: url('../fonts/Thunder-MediumLC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Thunder-MediumLC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Thunder-MediumLC.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Thunder-MediumLC.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Thunder-MediumLC.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,696 @@
+/* Sticky-pro */
+.sticky-pro{
+    width: 100%;
+    z-index: 4;
+    background-color: #ffffff;
+    opacity: .95;
+    top: 0;
+    position: sticky;
+}
+.sticky-pro .sticky-img img{
+    max-width: 48px;
+    max-height: 48px;
+    margin: 4px 10px;
+    display: block;
+}
+.sticky-pro .sticky-part-1{
+    padding-left: 150px;
+}
+.sticky-pro .sticky-part-2{
+    padding-right: 150px;
+}
+.sticky-pro .re-star i{
+    color: #fbcd0a;
+    font-size: 12px;
+    padding: 4px 2px 0 0;
+}
+.sticky-pro .points{
+    font-size: 12px;
+    color: #222222;
+    padding-top: 4px;
+}
+.sticky-input input{
+    height: 52px;
+    outline: none;
+    text-align: center;
+    width: 40px;
+    border: 1px solid #222222;
+}
+.sticky-input input::placeholder{
+    font-family: 'HandyTalkie';
+    font-size: 16px;
+}
+.sticky-pro .price del{
+    font-size: 14px;
+    color: #999999;
+}
+.sticky-pro .price p{
+    color: black;
+    padding:0 5px;
+}
+.sticky-pro .sticky-btn{
+    padding: 12px 35px;
+    font-size: 25px;
+    background-color: #EAF93D;
+    border: none;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+/* Banner */
+.banner {
+    background-image: none;
+    position: relative;
+    height: auto;
+    background-color: #F3F4F4;
+}
+.banner .navbar ul li a {
+    color: black;
+}
+.toggle-menu button{
+    color: black;
+    background-color: var(--white);
+}
+ .cart ul li a svg path{
+    fill: black;
+}
+.banner .navbar .nav-1 li a::after{
+    background-color: black;
+}
+
+/* Product-WUYA */
+.WUYA {
+    background-image: url(../img/Product_WUYA-bg.svg);
+    background-size: cover;
+}
+.WUYA-upper-head{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.WUYA h3{
+    padding: 0 70px;
+    margin-bottom: 10px;
+    color: var(--text-green-color);
+}
+.WUYA-p{
+    color: var(--white);
+    font-size: 16px;
+    max-width: 850px;
+    text-align: center;
+    line-height: 28px;
+}
+.WUYA .para-1 .text,.main-box .sub-text{
+    width: 400px;
+    text-align: left;
+}
+.WUYA .para-1 .text{
+    color: var(--text-green-color);
+    padding-bottom: 15px;
+}
+.WUYA .main-box .sub-text{
+    color: var(--white);
+}
+.WUYA .main-box .head-svg{
+    padding: 0 10px;
+}
+.main-box .box2{
+    margin: 0%;
+}
+.main-box .box2 img {
+    max-width: 100%;
+}
+.WUYA .main-box .box3 .para-1{
+    margin: 50px 0;
+}
+/* Happy Customers */
+.happy{
+    padding: 100px 0;
+    background-color: #F3F4F4;
+}
+.happy h2{
+    font-size: 88px;
+}
+.happy .happy-head{
+    position: relative;
+}
+.happy .happy-shape svg{
+    position: absolute;
+    top: 17%;
+    right: -7.5%;
+    width: 104px;
+    height: 104px;
+}
+.w-25{
+    width: 23%;
+}
+.happy-box .box img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+/* OB */
+.OB .OB-box{
+    padding-bottom: 60px;
+}
+.OB .box{
+    width: 100%;
+}
+.OB .c-head{
+    font-size: 120px;
+}
+/* Customer Reviews */
+.CR{
+    padding: 80px 40px;
+    background-color: #F3F4F4;
+}
+.CR-head{
+    font-size: 22.5px;
+    margin-bottom: 30px;
+}
+.review-star{
+    padding-bottom: 24px;
+}
+.review-star .re-star i{
+    color: #fbcd0a;
+    font-size: 16px;
+    padding: 0 1px;
+}
+.w-30{
+    width: 30%;
+}
+.review-star .r-part-1 .points{
+    padding-left: 10px;
+}
+.review-star .w-40{
+    border-left: 1px solid var(--purple);
+    border-right: 1px solid var(--purple);
+}
+.r-part-2 .total-r-bar{
+    width: 180px;
+}
+.r-part-2 .r-bar{
+    width: 140px;
+    height: 16px;
+    margin: auto;
+    background-color: #E9EAEA;
+}
+.review-star .re-star{
+    margin-bottom: 10px;
+}
+.review-star .r-part-2 .re-star  i{
+    font-size: 13px;
+}
+.review-star .re-star .r-no{
+    font-size: 12px;
+    color: var(--pro-grey);
+}
+.review-star .write-review .write-btn{
+    padding: 10px 60px;
+    font-size: 16px;
+    background-color: var(--purple);
+    border: none;
+    cursor: pointer;
+}
+.CR-main-box{
+    padding: 24px 16px;
+}
+
+/* CR-form */
+
+.CR-form{
+    padding: 24px 0;
+    display: none;
+}
+.CR-form .form-title{
+    font-size: 22px;
+    margin: 0 0 16px;
+    font-weight: bold;
+}
+.CR-form .inner-form{
+    padding: 0 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.CR-form .re-star{
+    color: #fbcd0a;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+.CR-form .com-margin{
+    margin-bottom: 24px;
+}
+.CR-form label{
+    display: block;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.CR-form  input[type="text"],textarea{
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid #e4e4e4;
+    outline: none;
+    text-align: center;
+    font-family: 'HandyTalkie';
+}
+.CR-form input::placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+.CR-form input:focus,textarea:focus{
+    border: 1px solid var(--purple);
+}
+.CR-form .file-box{
+    position: relative;
+    border: 1px solid #e4e4e4;
+    width: 128px;
+    height: 128px;
+    margin: auto;
+}
+.CR-form .file-icon i{
+    font-size: 48px;
+    color: var(--pro-grey);
+    line-height: 128px;
+}
+.CR-form .file-input{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.CR-form .file-input:focus{
+    border: 1px solid #e4e4e4;
+}
+.CR-form .name-com{
+    display: inline-block;
+}
+.CR-form .name-dropdown{
+    border-bottom: 1px solid var(--purple);
+    position: relative;
+}
+.CR-form .form-name label{
+    margin: 0;
+}
+.CR-form .form-name .name-select,.most-recent .name-select{
+    
+    background: transparent;
+    border: none;
+    padding: 10px 20px 10px 0;
+    appearance: none;
+    cursor: pointer;
+    font-family: 'HandyTalkie';
+    color: var(--purple);
+}
+.name-select:focus{
+    outline: none;
+    outline: 1px solid black;
+}
+.CR-form .form-name .select-arrow {
+    color: var(--purple);
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 6px;
+}
+.CR-form .terms-con p a{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    text-underline-offset: 2px;
+    font-size: 15px;
+}
+.CR-form .form-com-btn{
+    padding: 10px 20px;
+    font-family: 'HandyTalkie';
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1;
+    border: 2px solid var(--purple);
+}
+.CR-form .form-btn .btn-1{
+    color: var(--purple);
+    background-color: white;
+    margin-right: 10px;
+}
+.CR-form .form-btn .btn-2{
+    color: var(--white);
+    background-color: var(--purple);
+}
+
+/* Most Recents */
+.most-recent{
+    padding: 8px 0px;
+    border-top: 1px solid var(--purple);
+    border-bottom: 1px solid var(--purple);
+}
+.most-recent .name-dropdown{
+    position: relative;
+}
+.most-recent .select-arrow{
+    position: absolute;
+    color: var(--purple);
+    top: 5px;
+    right: 10px;
+    font-size: 12px;
+}
+
+/* Review Comment */
+.rc-com{
+    padding: 16px 0;
+    border-bottom: 1px solid var(--purple);
+}
+.rc-com .star-date{
+    margin: 8px 0;
+}
+.rc-com .star-date i{
+    color: #fbcd0a;
+    padding-right: 3px;
+}
+.rc-com .star-date .rc-date{
+    font-size: 80%;
+    color: var(--pro-grey);
+}
+.rc-com .rc-profile .icons{
+    width: 36px;
+    height: 36px;
+    color: var(--purple);
+    background-color: #E9EAEA;
+    text-align: center;
+    line-height: 36px;
+    margin:  0 8px 0 0;
+}
+.rc-com .icons i{
+    font-size: 17px;
+}
+.rc-com .profile-name{
+    font-size: 15px;
+    color: var(--purple);
+}
+.rc-com .rc-header{
+    margin-bottom: 10px;
+}
+.rc-content .bold-text{
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.rc-content .sec-line{
+    font-weight: lighter;
+}
+.rc-com .rc-dog-img a{
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    margin-top: 16px;
+}
+.rc-com .rc-dog-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Product-Detail */
+.product-detail{
+    background-color: #F3F4F4;
+}
+.product-main-box{
+    margin-bottom: 80px;
+}
+.product-detail-box .re-star i{
+    color: #fbcd0a;
+}
+.product-detail-box .product-detail-title h2{
+    font-size: 72px;
+    margin-top: 10px;
+}
+.product-detail-box .points{
+    margin-left: 10px;
+}
+.pro-pricing{
+    
+    padding-bottom: 16px;
+}
+.pro-pricing .price-1{
+    color: var(--font-blue-color);
+    font-size: 28px;
+    margin-right: 10px;
+}
+.pro-pricing .price-2{
+    color: #D7D8D8;
+    font-size: 28px;
+}
+.pro-pricing .save{
+    font-weight: bold;
+    font-size: 12px;
+    background-color: black;
+    color: var(--white);
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+.product-form{
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.product-form .dropdown-btn{
+    position: relative;
+    width: 50%;
+    font-family: 'HandyTalkie';
+    display: block;
+    text-align: left;
+    padding: 18px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid rgb(212, 206, 206);
+    margin: 15px 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.product-form .dropdown{
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    transition: all 0.1s;
+    background-color: white;
+    border: 1px solid rgb(212, 206, 206);
+}
+.dropdown .pro-drop-cancel{
+    display: none;
+}
+.product-form .dropdown .pro-scroll{
+    max-height: 245px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 8px 0;
+
+}
+.product-form .dropdown-btn .dropdown li{
+    font-size: 15px;
+    padding: 8px 18px;
+}
+.product-form .dropdown-btn .form-arrow{
+    position: absolute;
+    right: 10%;
+}
+.quantity{
+    margin-top: 15px;
+}
+.amount{
+    width: 160px;
+    border: 1px solid  rgb(212, 206, 206);
+    border-radius: 30px;
+}
+.product-form .quantity .q-l-btn,.product-form input{
+    background: #f3f4f4;
+    border: none;
+    padding: 20px ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+.product-form .q-r-btn{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #f3f4f4;
+    border: none;
+    padding: 20px;
+}
+.product-form input{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    padding: 2px 0;
+    outline: none;
+}
+.product-form input::placeholder{
+    font-family: "HandyTalkie";
+    color: black;
+    font-size: 15px;
+}
+.quantity .add-t-c{
+    padding: 22px 37px 15px;
+    font-size: 24px;
+    width: 95%;
+    border-radius: 30px;
+    border: none;
+    background-color: #D2E823;
+}
+.quantity .add-btn{
+    display: flex;
+    width: 70%;
+    flex-direction: row-reverse;
+}
+.schemes img{
+    width: 100%;
+    padding: 16px 0;
+}
+
+/* Accordian */
+
+.specifications .accordion{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 25px 25px;
+    margin: 0 auto;
+}
+.specifications .at-tab {
+    display: none;
+    padding: 8px 0;
+    border-top: none;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  
+  .at-title {
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  .at-title:after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    padding-top:30px
+  }
+  
+  .at-title.active:after {
+    content: "-";
+  }
+  
+  .specifications .accordion .at-item {
+    margin-bottom: 0;
+    border: none;
+  }
+  
+  .specifications .at-title h2 {
+    font-size: 18px;
+    font-family: 'Thunder';
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .accordion-header {
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    padding: 20px 0;
+  }
+  
+
+
+/* Swiper */
+
+.w-50{
+    padding: 0 15px;
+    height: fit-content;
+}
+.product-main-box .w-50 .swiper {
+  width: 100%;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+.product-main-box .w-50 .swiper-slide{
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  background: none;
+}
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 90%;
+  padding: 2px;
+}
+.mySwiper .swiper-slide-thumb-active {
+  border: 2px solid #D2E823;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+/* Display block */
+.dis-blk{
+    display: block !important;
+}
+.drop-border{
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.sticky-pro .mobile-screen-sticky{
+    display: none;   
+}
+.sticky{
+    position: sticky;
+}
+.top-drop{
+    transform: translateY(-75%) !important;
+}
+
+.pro-detail-overlay {
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    right: 0%;
+    background: #000000;
+    opacity: 0.3;
+    display: none;
+    z-index: 2;
+    transition: visibility 2s ease-in, opacity 2 s ease-in-out;
+  }

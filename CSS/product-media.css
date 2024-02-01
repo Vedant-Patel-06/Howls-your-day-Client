@@ -1,0 +1,580 @@
+@media (max-width: 575px) {
+    /* xs */
+  .col-xs-1{width: 8.3333%;}
+  .col-xs-2{width: 16.6666%;}
+  .col-xs-3{width: 25%;}
+  .col-xs-4{width: 33.3333%;}
+  .col-xs-5{width: 41.6666%;}
+  .col-xs-6{width: 50%;}
+  .col-xs-7{width: 58.3333%;}
+  .col-xs-8{width: 66.6666%;}
+  .col-xs-9{width: 75%;}
+  .col-xs-10{width: 83.3333%;}
+  .col-xs-11{width: 91.6666%;}
+  .col-xs-12{width: 100%;}
+  
+  .container{
+      max-width: 100%;
+  }
+  .sticky-pro .mobile-screen-sticky{
+    display: block;
+  }
+  .laptop-screen-sticky{
+    display: none;
+  }
+  .container,
+  .p-container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  /* Sticky Product Header */
+  .sticky-pro .mobile-screen-sticky .container{
+    padding: 0;
+  }
+  .sticky-pro .mobile-screen-sticky .container .row{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .sticky-pro .sticky-part-1{
+    padding-left: 0px;
+  }
+  .sticky-pro .sticky-part-2{
+    padding-right: 0px;
+  }
+  .sticky-pro .sticky-btn{
+    font-size: 18px;
+    padding: 15px 30px;
+    width: 130px;
+  }
+  /* Product Detail */
+  .product-main-box .w-50{
+    width: 100%;
+  }
+  .product-detail-box{
+      margin-top: 20px;
+  }
+  .product-detail-box .product-detail-title h2{
+    font-size: 31px;
+  }
+  .pro-pricing .price-1,.pro-pricing .price-2{
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .scheme-laptop{
+    display: none;   
+  }
+  .scheme-mobile{
+    display: block;   
+  }
+  .product-form .quantity .q-l-btn, .product-form .quantity .q-r-btn{
+    padding: 12px;
+  }
+  .product-form .amount{
+    width: 115px;
+  }
+  .product-form input{
+    width: 30px;
+  }
+  .quantity .add-t-c{
+    padding: 22px 0 15px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .quantity .add-btn{
+    width: 52%;
+  }
+  /* WUYA */
+
+  .WUYA{
+    padding: 60px 30px;
+  }
+  .WUYA h3{
+    font-size: 40px;
+    padding: 0;
+  }
+  .WUYA .main-box .sub-text{
+    width: 100%;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .WUYA .WUYA-p{
+    font-size: 14px;
+    text-align: justify;
+    max-width: 100%;
+    line-height: 26px;
+  }
+  .WUYA .main-box .head-svg{
+    padding: 0 10px 0 0;
+  }
+  .WUYA .main-box .head-svg svg{
+    width: 25px;
+    height: 25px;
+  }
+  .WUYA .para-1 .text{
+    padding: 5px 0 0 0;
+    margin-bottom: 0px;
+  }
+  .WUYA .main-box .box3 .para-1{
+    margin: 25px 0;
+  }
+  .main-box .box2{
+    max-width: 100%;
+    justify-content: center;
+  }
+  .main-box .box2 img{
+    width: 100%;
+  }
+
+  /* Happy  */
+  .happy{
+    padding: 20px 0 60px;
+  }
+  .happy .happy-head{
+    font-size: 38px;
+  }
+  .happy .happy-box{
+    margin-top: 10px;
+  }
+  .happy .happy-shape svg{
+    width: 60px;
+    height: 60px;
+    right: -8%;
+  }
+  .happy .happy-box .w-25{
+    width: 49%;
+  }
+  .happy .happy-box img{
+    margin-top: 10px;
+  }
+
+  /* TENG */
+  .TENG-box{
+    padding: 60px 20px 120px ;
+  }
+  .TENG-dog{
+    bottom: 0%;
+  }
+
+   /* CR */
+   .CR{
+    padding: 64px 5px;
+  }
+  .CR-form{
+    border-top: 1px solid var(--purple);
+  }
+  .CR .w-30,.w-40{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .CR .review-star .w-40{
+    border: none;
+  }
+  .CR .r-part-1 .r-p{
+    text-align: center;
+  }
+  .TENG-dog {
+   bottom: 0%;
+  }
+  .CR .sec-line{
+    font-size: 15px;
+  }
+  .CR .r-part-3,.write-btn{
+    width: 100%;
+  }
+  .CR .r-part-2 .row{
+    justify-content: center;
+  }
+  .CR .CR-form label,.terms-con{
+    font-size: 14px;
+  }
+  .CR-form .form-btn .btn-1 {
+    margin-right: 0px;
+  }
+  .CR .profile-name{
+    font-size: 14px;
+  }
+  .rc-content .bold-text , .rc-content .sec-line{
+    font-size: 14px;
+  }
+
+  /* OB */
+  .OB .c-head{
+    font-size: 40px;
+  }
+  .OB .ob-head{
+    padding-top: 40px;
+  }
+  .OB .box{
+    margin-top: 20px;
+  }
+  
+  /* Dropdown */
+  .dropdown-btn .dropdown{
+    width: 100%;
+    position: fixed;
+    transform: translateY(50%);
+    padding:  0 24px 16px;
+    border-radius: 0%;
+    transition: transform 1s;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    z-index: 3;
+    display: block;
+  }
+  .dropdown .pro-drop-cancel, .pro-drop-cancel-btn  {
+    display: flex;
+}
+  .dropdown-btn .dropdown .pro-scroll li{
+    padding: 20px 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(212, 206, 206);
+  }
+  .pro-drop-cancel{
+    padding: 18px 32px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(212, 206, 206);
+  }
+  .pro-drop-cancel h6{
+    font-size: 16px;
+  }
+}
+  @media (min-width: 576px) and (max-width: 767px) {
+    /* sm  */
+      .col-sm-1{width: 8.3333%;}
+      .col-sm-2{width: 16.6666%;}
+      .col-sm-3{width: 25%;}
+      .col-sm-4{width: 33.3333%;}
+      .col-sm-5{width: 41.6666%;}
+      .col-sm-6{width: 50%;}
+      .col-sm-7{width: 58.3333%;}
+      .col-sm-8{width: 66.6666%;}
+      .col-sm-9{width: 75%;}
+      .col-sm-10{width: 83.3333%;}
+      .col-sm-11{width: 91.6666%;}
+      .col-sm-12{width: 100%;}
+  
+    .container,
+    .p-container {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+    /* Sticky Product Header */
+    .sticky-pro .sticky-part-1{
+      padding-left: 0px;
+    }
+  .sticky-pro .sticky-part-2{
+      padding-right: 0px;
+    }
+  .sticky-pro .sticky-btn{
+      font-size: 18px;
+      padding: 15px 30px;
+    }
+  /* Product Detail */
+  .product-main-box .w-50{
+    width: 100%;
+  }
+  .product-detail-box{
+      margin-top: 20px;
+  }
+  .product-detail-box .product-detail-title h2{
+    font-size: 31px;
+  }
+  .pro-pricing .price-1,.pro-pricing .price-2{
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  /* WUYA */
+  .WUYA h3{
+    font-size: 40px;
+    padding: 0;
+  }
+  .WUYA .main-box .sub-text{
+    width: 100%;
+    font-size: 14px;
+  }
+  /* Happy */
+
+  .happy{
+    padding: 0px 0px 30px;
+  }
+  .happy .happy-head{
+    font-size: 40px;
+  }
+  .happy .happy-box{
+    margin-top: 10px;
+  }
+  .happy .happy-shape svg{
+    width: 60px;
+    height: 60px;
+    right: -10%;
+  }
+  .happy .happy-box .w-25{
+    width: 49%;
+  }
+  .happy .happy-box img{
+    margin-top: 10px;
+  }
+  /* .TENG */
+
+  .TENG .container{
+    padding: 60px 20px 120px;
+  }
+  .TENG .T-content-box img{
+    margin: 15px 0 15px 0;
+  }
+  /* CR */
+  .CR{
+    padding: 64px 5px;
+  }
+  .CR-form{
+    border-top: 1px solid var(--purple);
+  }
+  .CR .w-30,.w-40{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .CR .review-star .w-40{
+    border: none;
+  }
+  .CR .r-part-1 .r-p{
+    text-align: center;
+  }
+  .TENG-dog {
+   bottom: 0%;
+  }
+  .CR .sec-line{
+    font-size: 15px;
+  }
+
+  /* OB */
+  .OB{
+    padding: 0px 20px;
+  }
+  .OB .c-head{
+    font-size: 88px;
+  }
+  .OB .box{
+    margin: 15px 0 0 0;
+    padding-right: 5px;
+  }
+  .OB .nswiper{
+    padding: 0px;
+  }
+  .logo{
+    padding-left: 0px;
+  }
+    
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* md  */
+    .col-md-1{width: 8.3333%;}
+      .col-md-2{width: 16.6666%;}
+      .col-md-3{width: 25%;}
+      .col-md-4{width: 33.3333%;}
+      .col-md-5{width: 41.6666%;}
+      .col-md-6{width: 50%;}
+      .col-md-7{width: 58.3333%;}
+      .col-md-8{width: 66.6666%;}
+      .col-md-9{width: 75%;}
+      .col-md-10{width: 83.3333%;}
+      .col-md-11{width: 91.6666%;}
+      .col-md-12{width: 100%;}
+  
+    .container {
+      max-width: 768px;
+      padding: 0 35px;
+    }
+    .p-container {
+      max-width: 768px;
+      margin: auto;
+    }
+    
+    /* Sticky Product Header */
+    .sticky-pro .sticky-part-1{
+        padding-left: 0px;
+    }
+    .sticky-pro .sticky-part-2{
+        padding-right: 0px;
+    }
+    .sticky-pro .sticky-btn{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    .sticky-pro .mobile-screen-sticky{
+      display: none;   
+    }
+    /* Product Detail */
+    .product-main-box .w-50{
+        width: 100%;
+    }
+    .product-detail-box{
+        margin-top: 20px;
+    }
+    .product-detail-box .product-detail-title h2{
+      font-size: 31px;
+    }
+    .pro-pricing .price-1,.pro-pricing .price-2{
+      font-size: 20px;
+      margin-top: 8px;
+    }
+    /* WUYA */
+    .WUYA h3{
+        font-size: 40px;
+        padding: 0;
+    }
+    .WUYA .main-box .sub-text{
+        width: 100%;
+        font-size: 14px;
+    }
+    /* Happy */
+
+    .happy{
+      padding: 0px 0px 30px;
+    }
+    .happy .happy-head{
+      font-size: 40px;
+    }
+    .happy .happy-box{
+      margin-top: 10px;
+    }
+    .happy .happy-shape svg{
+      width: 60px;
+      height: 60px;
+      right: -10%;
+    }
+    .happy .happy-box .w-25{
+      width: 49%;
+    }
+    .happy .happy-box img{
+      margin-top: 10px;
+    }
+    /* .TENG */
+
+    .TENG .container{
+      padding: 60px 20px 120px;
+    }
+    .TENG .T-content-box img{
+      margin: 15px 0 15px 0;
+    }
+    /* CR */
+    .CR{
+      padding: 64px 5px;
+    }
+    .CR-form{
+      border-top: 1px solid var(--purple);
+    }
+    .CR .w-30,.w-40{
+      width: 100%;
+      margin-bottom: 24px;
+    }
+    .CR .review-star .w-40{
+      border: none;
+    }
+    .CR .r-part-1 .r-p{
+      text-align: center;
+    }
+    .TENG-dog {
+     bottom: 0%;
+    }
+    .CR .sec-line{
+      font-size: 15px;
+    }
+
+    /* OB */
+    .OB{
+      padding: 0px 20px;
+    }
+    .OB .c-head{
+      font-size: 88px;
+    }
+    .OB .box{
+      margin: 15px 0 0 0;
+      padding-right: 5px;
+    }
+    .OB .nswiper{
+      padding: 0px;
+    }
+    .logo{
+      padding-left: 0px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* lg  */
+    .col-lg-1{width: 8.3333%;}
+    .col-lg-2{width: 16.6666%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-4{width: 33.3333%;}
+    .col-lg-5{width: 41.6666%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-7{width: 58.3333%;}
+    .col-lg-8{width: 66.6666%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-10{width: 83.3333%;}
+    .col-lg-11{width: 91.6666%;}
+    .col-lg-12{width: 100%;}
+  
+    .container {
+      max-width: 1024px;
+      padding: 0 40px;
+    }
+    .p-container {
+      max-width: 1024px;
+      padding: 0 40px;
+    }
+    
+    .sticky-pro .mobile-screen-sticky{
+      display: none;   
+    }
+    /* Product detail */
+
+    .quantity .add-btn{
+        width: 60%;
+    }
+    /* WUYA-2 */
+    .WUYA h3{
+        padding: 0;
+    }
+    .WUYA .main-box .box2 img{
+        max-width: 300px;
+    }
+    .WUYA .main-box .para-1{
+        width: 330px;
+    }
+    .WUYA .main-box .sub-text{
+        width: 100%;
+    }
+    /* TENG */
+    .TENG{
+        padding: 60px 40px 130px;
+    }
+    .TENG-box .main-box{
+        max-width: 890px;
+    }
+    .TENG .TENG-shape svg{
+        bottom: 53%;
+    }
+    /* CR */
+    
+    .CR{
+        padding: 60px 0;
+    }
+    /* OB */
+    .OB .box .product-data .price-btn{
+        font-size: 24px;
+    }
+    /* footer */
+    footer{
+        padding: 70px 0 0;
+    }
+    footer .logo img{
+        width: 52px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .p-container {
+      padding: 0 35px;
+    }
+  }
+  
